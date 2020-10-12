@@ -215,7 +215,7 @@ firewall-cmd --reload
 ![magento](https://user-images.githubusercontent.com/45441463/95772468-28d97d80-0c93-11eb-98ca-000035452006.PNG)
 
 
-9. Agora que temos nossa Loja, montaremos um site em WordPress.
+<h4>9. Agora que temos nossa Loja, montaremos um site em WordPress.</h4>
 
 9.1 Como já temos o LEMP e toda a estrutura criada, será bem rápido, acesse o banco de dados:
 
@@ -223,7 +223,7 @@ firewall-cmd --reload
 mysql -u root -p 
 
 ```
-9.2Você irá criar o banco de dados wordpress:
+9.2 Você irá criar o banco de dados wordpress:
 
 ```
 CREATE DATABASE wordpress;
@@ -298,7 +298,7 @@ define('DB_USER', 'wordpressuser');
 define('DB_PASSWORD', 'password');
 ```
 
-<h4>10. Pronto, seu WordPress está instado, agora partiremos para a criação de um site simples em php.<h4>
+<h4>10. Pronto, seu WordPress está instalado, agora partiremos para a criação de um site simples em php.<h4>
 
 
 
