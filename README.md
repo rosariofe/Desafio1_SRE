@@ -9,7 +9,7 @@ https://darrenoneill.eu/?p=816
 
 ![aws1](https://user-images.githubusercontent.com/45441463/95772177-b5d00700-0c92-11eb-802b-2a8672f41577.PNG)
 
-<h3>2 - Criar uma loja com Magento (step by step)<h3>
+<h3>2 - Criar uma loja com Magento (step by step)</h3>
 
 2.1- Antes de mais nada você necessitará de um LEMP para iniciar a instalação do Magento, caso tenha dúvidas de como proceder, tem esse outro post que eu já havia feito:
 https://github.com/rosariofe/LAMP-CentOS
@@ -140,7 +140,7 @@ chmod -R 755 /var/www/html/magento2
 
 ```
 
-<h3>6. Pronto, Magento instalado, iremos configurar o Nginx para funcionar corretamente, acesse o arquivo:
+<h3>6. Pronto, Magento instalado, iremos configurar o Nginx para funcionar corretamente, acesse o arquivo:</h3>
 
 ```
 nano /etc/nginx/conf.d/magento.conf
