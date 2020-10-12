@@ -297,8 +297,10 @@ define('DB_USER', 'wordpressuser');
 /** MySQL database password */
 define('DB_PASSWORD', 'password');
 ```
+
 <h4>10.</h4> Pronto, seu WordPress está instado, agora partiremos para a criação de um site simples em php.
 
-![Wordpress1](https://user-images.githubusercontent.com/45441463/95772529-44448880-0c93-11eb-93a0-b7ac7a8b633f.PNG)
+![Wordpress1](https://user-images.githubusercontent.com/45441463/95774479-e0bc5a00-0c96-11eb-83c9-30398c07d417.PNG)
+
 
 
