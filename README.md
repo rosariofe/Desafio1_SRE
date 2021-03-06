@@ -303,4 +303,22 @@ define('DB_PASSWORD', 'password');
 
 ![Wordpress1](https://user-images.githubusercontent.com/45441463/95774479-e0bc5a00-0c96-11eb-83c9-30398c07d417.PNG)
 
+<h4>11. Para subir o site simples, é muito fácil, basta acessar as configurações de virtual host e criar um diretório para o seu site</h4>
+
+- Acesse o diretório /etc/nginx/conf.d/ conforme a imagem abaixo:
+
+![image](https://user-images.githubusercontent.com/45441463/110208150-307a0880-7e66-11eb-8c1e-c37cbabba6e2.png)
+
+- Após acessar realize um vim e insira as informações como na imagem abaixo:
+
+- ![image](https://user-images.githubusercontent.com/45441463/110208562-abdbba00-7e66-11eb-95dd-8e519f57b3f3.png)
+
+- Após realizar a configuração do virtual host, acesse o diretório /var/www/html/ e crie um diretório para o site simples armazenar seus arquivos de definição, como mostra a imagem abaixo:
+
+- ![image](https://user-images.githubusercontent.com/45441463/110208661-4936ee00-7e67-11eb-865e-8f0e08ed81ac.png)
+
+- Após isso basta criar um arquivo simples de index.html e pronto seu site simples está pronto, reinicie o serviço do nginx e valide no dns que setou no Route 53
+
+
+
 
