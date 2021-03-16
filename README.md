@@ -322,5 +322,33 @@ define('DB_PASSWORD', 'password');
 
 <h4>Instalando o Tomcat como Proxy Reverso</h4>
 
--
+1. Instale o Java
+```
+yum install -y java-11-openjdk-devel
+java -version
 
+```
+2. Agora, crie um usuário para o tomcat:
+```
+useradd -r tomcat
+```
+3. Crie o diretório para armazenar o tomcat:
+```
+mkdir /usr/local/tomcat9
+```
+4. Acesse o diretório criado e realize o download da instalação do TomCat:
+```
+wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.8/bin/apache-tomcat-9.0.8.tar.gz
+
+```
+* Agora extraia o arquivo
+5. Mude as permissões 
+```
+chown -R tomcat.tomcat /usr/local/tomcat9
+```
+6. Agora iremos definir uma variavél de ambiente, pois caso haja a necessidade de mais uma instância rodando o tomcat, a partir dela teremos o direcionamento e a liberação de acesso correta para os usuários:
+```
+echo "export CATALINA_HOME="/usr/local/tomcat9"" >> ~/.bashrc
+source ~/.bashrc
+```
+7. Agora iremos criar o arquivo de virtual host 
