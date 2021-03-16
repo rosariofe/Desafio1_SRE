@@ -320,5 +320,7 @@ define('DB_PASSWORD', 'password');
 - Após isso basta criar um arquivo simples de index.html e pronto seu site simples está pronto, reinicie o serviço do nginx e valide no dns que setou no Route 53
 
 
+<h4>Instalando o Tomcat como Proxy Reverso</h4>
 
+-
 
